@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script';
+    background-image: url('../img/dark.jpg');
+    background-position: 50% 20% 40%;
+    background-size: cover;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .5s;
+}
+.card-front{
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/coder.jpg');
+    background-position: 50%;
+    background-size: cover;
+    position: absolute;
+    box-shadow: -2px -1px 50px 1px,0px 0px 15px 1px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: none;
+    transform: rotatey(0deg);
+    transition: .5s;
+}
+
+.card-back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/coderoom.avif');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    transform: rotatey(-180deg);
+    transition: .5s;
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    margin: 60% auto 35% auto;
+    font-size: 26px;
+    transform: translatez(20px) scale(0.8);
+	line-height: -2.5vh;
+}    
+span{
+    font-size: 20px;
+    color: #12a2b9;
+    font-family: 'Pacifico';
+    transform: translatez(10px) scale(0.6);
+	line-height: -1vh;
+}
+a{
+    height: 30px;
+    width: 30px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 20px;
+}
+a:hover{
+     color: #0d90aa;
+     background-color: #ffffff;
+}
+.card:hover .card-front{
+    transform: rotatey(180deg);
+    box-shadow: -2px -1px 50px 1px,0px 0px 15px 1px;
+}
+.card:hover .card-back{
+    transform: rotateX(0deg);
+}

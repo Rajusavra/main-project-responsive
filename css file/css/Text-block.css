@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+h1{
+    color: rgb(41, 150, 31);
+    font-family: 'Kaushan Script';
+    text-align: center;
+}
+p{
+    font-size: 40px;
+    font-family: 'Kaushan Script';
+    color: rgb(28, 179, 28)
+}
+h2{
+    color: rgb(117, 12, 12);
+    font-family: 'Pacifico';
+    text-align: center;
+}
+.box{
+    font-size: 40px;
+    font-family: 'Pacifico';
+    color: rgb(196, 17, 17) 
+}
+h3{
+    color: rgb(16, 153, 177);
+    font-family: 'Pacifico';
+    text-align: center;
+}
+.pera3{
+    font-size: 40px;
+    font-family: 'Kaushan Script';
+    color: rgb(16, 153, 177);
+}
+h4{
+    color: rgb(131, 16, 177);
+    font-family: 'Poppins';
+    text-align: center;
+}
+.prg4{
+    font-size: 40px;
+    font-family: 'Poppins';
+    color: rgb(131, 16, 177);
+}

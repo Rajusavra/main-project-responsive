@@ -1,0 +1,124 @@
+    *{
+    box-sizing: border-box;
+    /* margin: 0px auto; */
+}
+body{
+    background-color: #119d9f;
+}
+h2{
+    font-size: 40px;
+    color:#9f1111;
+    text-align: center;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color: #000000;
+    display: flex;
+}
+.col{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    line-height:90px;
+    
+}
+.col2{
+    background-color: rgb(9, 94, 168);
+}
+.col3{
+    width: 100px;
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    line-height:90px; 
+    border: 1px solid #000000 ;
+}
+.col4{
+    height: 100px;
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    line-height:90px; 
+    border: 1px solid #000000 ;
+}
+.wrap{
+    flex-wrap:wrap;
+}
+.nowrap{
+    flex-wrap:nowrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+.Flex-Start{
+    justify-content: flex-start;
+}
+.Flex-end{
+    justify-content: end;
+}
+.Flex-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-arround{
+    justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.stretch{
+    align-items: stretch;
+}
+.center{
+    align-items: center;
+}
+.flex-Start{
+    align-items: flex-start;
+}
+.flex-end{
+    align-items : flex-end;
+}
+.baseline{
+    align-items: baseline;
+}
+.align-content-stretch{
+    align-content: stretch;
+}
+.align-content-center{
+    align-content: center;
+}
+.flex-start{
+    align-content: flex-start;
+}
+.flex-End{
+    align-content: flex-end;
+}
+.space-Between2{
+    align-content: space-between;
+}
+.space-arround2{
+    align-content: space-around;
+}
+.space-evenly2{
+    align-content: space-evenly;
+}
+.Flex-basis{
+    flex-basis: 50%;
+}

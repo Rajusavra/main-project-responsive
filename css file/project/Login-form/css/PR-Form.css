@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+input {
+  caret-color: rgb(33, 192, 228);
+}
+body{
+  background-color: rgb(164, 182, 236);
+}
+.main{
+  width: 1120px;
+  height: 700px;
+  background-color: white;
+  margin: 0px auto;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  border-top-left-radius:2% ;
+  border-top-right-radius:2%;
+  border-bottom-right-radius:2%;
+  border-bottom-left-radius:2% ;
+
+}
+.page{
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  background-color: rgb(72, 102, 192);
+  background-position: 50% 10%;
+  border-top-left-radius:2% ;
+  border-bottom-left-radius:2% ;
+}
+.min{
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  top: 35%; 
+  background-image: url('../img/caryon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% 90%; 
+  border-top-left-radius:2px ;
+  border-bottom-left-radius:2px ;
+}
+h4{
+  color: white;
+  position: absolute;
+  left: 10%;
+  top: 3%;
+  font-family: 'Poppins';
+}
+h3{
+  color: rgb(0, 9, 130);
+  position: absolute;
+  left: 10%;
+  top: 6%;
+  font-weight: 900;
+  font-family: 'Poppins';
+}
+.page2{
+  position: absolute;
+  width: 55%;
+  left: 45%;
+  background-color: rgb(255, 255, 255);
+  border-top-right-radius:2% ;
+  border-bottom-right-radius:2% ;
+}
+h2{
+  position: absolute;
+  color: rgb(66, 73, 169);
+  left: 19%;
+  top: 5%;
+  font-family: 'Poppins';
+}
+.title{
+  position: absolute;
+  top: 18%;
+  left: 19%;
+  color: black;
+  font-weight: 999;
+}
+.name{
+  top: 21%;
+  left: 19%;
+  position: absolute;
+  border: solid rgba(72, 72, 72, 0.501) 1px;
+  border-radius: 3px;
+  outline: none;
+}
+.title2{
+  left: 50%;
+}
+.name2{
+  left: 50%;
+}
+.title3{
+  top: 26%;
+}
+.name3{
+  top: 29%;
+  width: 60%;
+}
+.title4{
+  top: 34%;
+}
+.name4{
+  top: 37%;
+  width: 60%;
+}
+.title5{
+  top: 42%;
+}
+.name5{
+  top: 45%;
+  width: 60%;
+}
+.title6{
+  top: 49%;
+  left: 19%;
+}
+.title7{
+  top: 47%;
+  left: 23%;
+  font-size: 14px;
+}
+button {
+  position: absolute;
+  width: 60%;
+  height: 30px;
+  top: 56%;
+  left: 19%;
+  background-color: rgb(72, 102, 192); 
+  border: solid  rgb(72, 102, 192) 1px;
+  border-radius:3px ;
+  color: white;
+  font-weight: 600;
+  font-family: 'Poppins';
+  transition: .5s;
+}
+button+h2{
+  top: 62%;
+  left: 48%;
+  color: black;
+  font-size: 14px;
+}
+.google{
+  width: 29%;
+  height: 30px;
+  border: solid rgba(72, 72, 72, 0.501) 1px;
+  background-color: #fff;
+  color: black;
+  font-size: 10px;
+  font-weight: 800;
+  top: 69%;
+  left: 19%;
+}
+.icon{
+  color: black;
+  text-decoration: none;
+  display: block;
+  float:left;
+  font-size: 14px;
+}
+.sign-in{
+  position: absolute;
+  left: 27px;
+  top: 6px;
+  font-size: 11px;
+}
+.facebook{
+  left: 51%;
+}
+p{
+  position: absolute;
+  top: 78%;
+  left: 32%;
+}
+.enter{
+  position: absolute;
+  bottom: 17%;
+  left: 61%;
+  text-decoration: none;
+}
+button:hover{
+  background-color: rgba(0, 255, 255, 0.458);
+  color: rgb(11, 11, 114);
+  border-color:  rgba(0, 255, 255, 0.458);
+  transform: scale(0.9);
+}
+.enter:hover{
+  color: rgba(207, 31, 31, 0.869);
+}

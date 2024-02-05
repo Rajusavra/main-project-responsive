@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+body{
+    background-image: url('../img/discord.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 60px;
+    color: rgb(131, 255, 234);
+    text-align: center;
+}
+.box{
+    width: 1100px;
+    height: 600px;
+    background-image: url('../img/bgg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.box::after{
+    width: 1000px;
+    height: 8px;
+    background-color: rgb(142, 6, 6);
+    position: absolute;
+    content: '';
+    bottom: 5%;
+    margin-left:45px;
+}
+.block{
+    width: 30px;
+    height: 40px;
+    background-image:url('../img/shuriken.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 10%;
+    bottom: 7%;  
+    transition: 5s;
+}
+.box .block:nth-child(2){
+    height: 0%;
+    background-image:url('../img/sharingan-removebg-preview.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 45%;
+}
+.box .block:nth-child(3){
+    height: 0%;
+    background-image:url('../img/fire-removebg-preview\ \(1\).png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 80%;
+    padding: 30px;
+}
+.box:hover .block{
+    height: 35%;
+    transform: rotate(540rad);
+    padding: 50px;
+}
+.box:hover .block:nth-child(2){
+    height: 0%;
+    background-image:url('../img/sharingan-removebg-preview.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

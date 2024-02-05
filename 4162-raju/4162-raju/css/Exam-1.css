@@ -1,0 +1,263 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    font-size: 16px;
+    overflowx: hidden;
+    color: var(--bs-black);
+}
+:root{
+    --bs-white:#fff;
+    --bs-black:#000;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .2s ease-in-out;
+}
+a{
+    text-decoration: none;
+}
+u{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1320px;
+    background-color: transparent;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-4{
+    padding: 0px 15px;
+}
+.elementor-8{
+    padding-top: 40px;
+}
+.elementor-8 .elementor-element.elementor-element-e7d1c6f{
+    background-color: #EFB443;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    padding: 120px 0px 0px 0px;
+    z-index: 2;
+}
+.elementor-section{
+    position: relative;
+}
+.elementor-8 .elementor-element.elementor-element-e7d1c6f.nt-section-ripped-top::before{
+    background-image: url('../imge/ripped-paper-primary-up.png');
+    transform: rotate(180deg);
+}
+.nt-section-ripped-top.ripped-top-yes::before{
+    content: "";
+    width: 100%;
+    height: 16px;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    z-index: 10;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.elementor-section .elementor-container {
+    max-width: 1200px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.elementor-8 .elementor-element .elementor-element-populated{
+    margin: 0px 0px -90px 0px;
+    padding: 0px 15px 0px 15px;
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.service-one__box{
+    position: relative;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);
+}
+.elementor-8 .elementor-element .service-one__box img{
+        width: 100%;
+        filter: blur(0);
+        border-radius: 5px;
+        transition: 500ms ease;
+}
+.service-one__box .box-content{
+    width: calc(100% - 40px);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(50%);
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 500ms ease;
+}
+.box-content h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #255946;
+    text-align: center;
+}
+.box-content h3 a{
+    color: inherit;
+    transition: all 500ms ease;
+}
+.elementor-8 .elementor-element .service-one__box:hover img{
+    filter: blur(2px);
+}
+.service-one__box:hover .box-content{
+    box-shadow: 0 10px 60px 0 rgba(0,0,0,.05);
+}
+.box-content h3 a:hover{
+    color: #EFB443;
+}
+/* section */
+.elementor-8 .elementor-element.elementor-element-78b3c0d{
+    background-image: url('../imge/about-bg-icon-1.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 120px 0px 0px 0px;
+}
+.elementor-8 .elementor-element.elementor-element-8b668ff{
+    width: 38.54%;
+}
+.elementor-element .elementor-widget-container{
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);
+}
+.about-one_images{
+    position: relative;
+}
+.about-one_images img.img-1{
+    max-width: none;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+.about-one_images img.img-2{
+    position: absolute;
+    bottom: -150px;
+    left: -120px;
+}
+.elementor-8 .about-one_images .one_count{
+    background-image: url('../imge/about-circle.png');
+    width: 219px;
+    height: 219px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.one_count{
+    position: absolute;
+    top: 90px;
+    left:-109.5px;
+    right:auto;
+}
+.one_count span{
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.one_count h4{
+    font-family: 'Inter';
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+}
+.elementor-column{
+    position: relative;
+    display: flex;
+}
+.elementor-8 .elementor-element.elementor-element-be39829{
+    width: 56%;
+}
+.elementor-8 .elementor-element.elementor-element-be39829{
+    background-color: #fff;
+}
+.elementor-8 .elementor-element.elementor-element-be39829 > .elementor-element-populated{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 70px 0px 0px 70px;
+    padding: 90px 0px 0px 110px;
+}
+.elementor-8 .elementor-element.elementor-element-be39829 > .elementor-element-populated, .elementor-8 .elementor-element.elementor-element-be39829 > .elementor-element-populated > .elementor-background-overlay, .elementor-8 .elementor-element.elementor-element-be39829 > .elementor-background-slideshow{
+    border-radius: 5px;
+}
+.elementor-widget-wrap{
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.elementor .elementor-background-overlay, .elementor .elementor-background-slideshow{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.elementor-widget-wrap>.elementor-element{
+    width: 100%;
+}
+.elementor-section.elementor-section-boxed > .elementor-container{
+    max-width: 1200px;
+}
+.elementor-section .elementor-container{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.elementor-8 .elementor-element.elementor-element-67e2c09 > .elementor-element-populated{
+    padding: 0px;
+}
+.elementor-widget-wrap{
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.elementor-8 .elementor-element.elementor-element-81b5197{
+    text-align: left;
+}
+.elementor-widget-wrap>.elementor-element{
+    width: 100%;
+}
+.elementor-8 .elementor-element.elementor-element-8b33f6b .elementor-heading-title{
+    color: #255946;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.elementor-heading-title{
+    padding: 0;
+    margin: 0;
+}

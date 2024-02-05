@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+body{
+    background-image: url('../img/wp2883566.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2{
+    font-family: 'Poppins';
+    text-align: center;
+    color: brown;
+    
+}
+.box {
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    float: left;
+    color: rgb(168, 14, 14);
+    font-size: 60px;
+    text-align: center;
+    line-height: 95px;
+}
+.box2{
+    background-color: #efe6e6;
+    float: left;
+}
+.clear-fix{
+    clear: both;
+}
+.all{
+    width: 770px;
+    height: 770px;
+    border: 25px solid;
+    border-image: linear-gradient(to bottom right , rgb(39, 37, 37) ,
+     rgb(200, 189, 189))1;
+}
+a{
+    font-size: 30px;
+    color: red;
+    margin: 888px;
+}
+ .box:hover{
+    border: 2px dashed white;
+    background-color: #d0801e;
+    transition:0.5s;
+}
+
+.box2:hover{
+    border: 2px dashed rgb(200, 23, 23);
+    background-color: #105182;
+    transition:0.5s;
+}
+.all :hover{
+    color: chartreuse   ;
+    transition: 0.3s;
+}

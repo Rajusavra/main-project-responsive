@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-Black.woff2') format('woff2'),
+        url('../font/DMSans18pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-ExtraBold.woff2') format('woff2'),
+        url('../font/DMSans18pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-BlackItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-Bold.woff2') format('woff2'),
+        url('../font/DMSans18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-ExtraLight.woff2') format('woff2'),
+        url('../font/DMSans18pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-BoldItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-Italic.woff2') format('woff2'),
+        url('../font/DMSans18pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-BlackItalic.woff2') format('woff2'),
+        url('../font/DMSans24pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-ThinItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-SemiBold.woff2') format('woff2'),
+        url('../font/DMSans18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-MediumItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-Light.woff2') format('woff2'),
+        url('../font/DMSans18pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-LightItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-Regular.woff2') format('woff2'),
+        url('../font/DMSans18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-Thin.woff2') format('woff2'),
+        url('../font/DMSans18pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-Bold.woff2') format('woff2'),
+        url('../font/DMSans24pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-Black.woff2') format('woff2'),
+        url('../font/DMSans24pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-Medium.woff2') format('woff2'),
+        url('../font/DMSans18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('../font/DMSans18pt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/DMSans18pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-ExtraLight.woff2') format('woff2'),
+        url('../font/DMSans24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/DMSans24pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-Light.woff2') format('woff2'),
+        url('../font/DMSans24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/DMSans24pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-BoldItalic.woff2') format('woff2'),
+        url('../font/DMSans24pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-LightItalic.woff2') format('woff2'),
+        url('../font/DMSans24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-Medium.woff2') format('woff2'),
+        url('../font/DMSans24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-ExtraBold.woff2') format('woff2'),
+        url('../font/DMSans24pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 24pt';
+    src: url('../font/DMSans24pt-Italic.woff2') format('woff2'),
+        url('../font/DMSans24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
